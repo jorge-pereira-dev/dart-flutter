@@ -15,7 +15,7 @@ class Produto {
   Produto({this.nome, this.preco = 9.99});
 
 /* Construtor Simples
-  Produto(String nome, double preco) {
+  Produto(String nome, double preco)  {
     this.nome = nome;
     this.preco = preco;
   }

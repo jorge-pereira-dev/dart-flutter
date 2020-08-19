@@ -5,7 +5,6 @@ soma(a, b) {
 
 main() {
 //Variáveis
-//Git
 
   //Tipos Primitivos
   int numb = 1;
