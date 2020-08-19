@@ -8,7 +8,7 @@ class Produto {
   String nome;
   double preco;
 
-// Construtor com Parâmetro Posicional
+// Construtor com Parâmetro  Posicional
   //Produto(this.nome, this.preco);
 
 // Construtor com Parâmetro Nomeado
