@@ -6,4 +6,12 @@ main() {
   Person person = Person(name: "Jorge", age: 22, sex: "M");
 
   print(person.name);
+
+  //Utilize Heritage
+  print(person.peso);
+
+  Person person2 = Person();
+
+  person2.peso = double.parse(stdin.readLineSync());
+  print(person2.peso);
 }
