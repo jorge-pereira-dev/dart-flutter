@@ -14,4 +14,13 @@ main() {
 
   person2.peso = double.parse(stdin.readLineSync());
   print(person2.peso);
+
+  print("peso, stature");
+
+  person2.peso = double.parse(stdin.readLineSync());
+  person2.stature = double.parse(stdin.readLineSync());
+
+  //Call Method
+  print("IMC: ${person2.imc()}");
+  print("IMC: ${person2.imc_af()}");
 }

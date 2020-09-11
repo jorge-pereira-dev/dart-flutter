@@ -26,4 +26,12 @@ class Person extends Human {
     this.sex = sex;
   }
 */
+
+  //Methods
+  double imc() {
+    return peso / (stature * stature);
+  }
+
+  //Methods use Arrow Function
+  double imc_af() => peso / (stature * stature);
 }
