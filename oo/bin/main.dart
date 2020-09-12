@@ -7,9 +7,6 @@ main() {
 
   print(person.name);
 
-  //Utilize Heritage
-  print(person.peso);
-
   Person person2 = Person();
 
   person2.peso = double.parse(stdin.readLineSync());
